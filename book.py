@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 
 # MongoDB Connection URI (replace with your credentials securely)
-uri = "mongodb+srv://Soda:PbCxuh9UeQMF8YEq@cluster0.uqybo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://user:<password>@cluster0.uqybo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Connect to MongoDB
 client = MongoClient(uri)
